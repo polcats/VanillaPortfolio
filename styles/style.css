@@ -14,134 +14,132 @@
 }
 
 body {
-	background: #111;
-	font-family: "Artifika", "Helvetica", "Sans Serif", Calibri, "Microsoft Sans Serif";
-	margin: 0;
+    background: #111;
+    font-family: "Artifika", "Helvetica", "Sans Serif", Calibri,
+        "Microsoft Sans Serif";
+    margin: 0;
 }
 
 /* selection color */
 ::selection {
-	background: #fff;
+    background: #fff;
 }
 
 /* wrapper element */
 div#wrap {
-	background-color: #fff;
-	width: 100%;
-	max-width: 1000px;
-	margin: 0 auto; /*centers the element*/
-	text-align: center;
+    background-color: #fff;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto; /*centers the element*/
+    text-align: center;
 }
 /*end of wrapper*/
 
 /*signature portion*/
 div#signature {
-	background-color: #b4dbc0;
-	padding-top: 5%;
-	padding-bottom: 5%;
-	border-bottom:7px solid #111;
-
+    background-color: #b4dbc0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: 7px solid #111;
 }
 div#signature h1 {
-	font-size: 50px;
-	margin: 0;
-	color: #000;
+    font-size: 50px;
+    margin: 0;
+    color: #000;
 }
 div#signature h3 {
-	font-size: 20px;
-	font-family: Quicksand;
+    font-size: 20px;
+    font-family: Quicksand;
 }
 /*end of signature*/
 
-
 /*section elements*/
-div.section-double, div.section-single {
-	background: #77c9d4; /* other variants tested 7cdbd5 77c9d4 caebf2 62edd6*/
-	padding: 5% 0 5% 0;
-	border-bottom:7px solid #111;
+div.section-double,
+div.section-single {
+    background: #77c9d4; /* other variants tested 7cdbd5 77c9d4 caebf2 62edd6*/
+    padding: 5% 0 5% 0;
+    border-bottom: 7px solid #111;
 }
 
 div.section-double .content {
-	width: 50%;
-	padding: 0;
-	float: left;
-	margin: 0;
+    width: 50%;
+    padding: 0;
+    float: left;
+    margin: 0;
 }
 div.section-double .content:first-child {
-	border-right: 1px dashed #fff;
-	width: 49%;
+    border-right: 1px dashed #fff;
+    width: 49%;
 }
-
 
 div.section-single h2,
 div.section-single h5 {
-	text-align: left;
-	margin: 10px 0px 0px 30px;
+    text-align: left;
+    margin: 10px 0px 0px 30px;
 }
 
 div.content h2 {
-	font-family: Amaranth;
-	font-size: 35px;
-	text-transform: uppercase;
+    font-family: Amaranth;
+    font-size: 35px;
+    text-transform: uppercase;
 }
 
 div.content h3 {
-	font-family: Quicksand;
-	font-size: 25px;
-	color: #fff;
-	border-left: 15px solid #fff;
-	padding-left: 25px;
-	margin: 20px 0 10px 30px;
-	text-align: left;
+    font-family: Quicksand;
+    font-size: 25px;
+    color: #fff;
+    border-left: 15px solid #fff;
+    padding-left: 25px;
+    margin: 20px 0 10px 30px;
+    text-align: left;
 }
 
 div.content p {
-	font-family: Quicksand;
-	max-width: 90%;
-	margin: 0 auto;
-	padding: 10px;
-	text-align: justify;
-	text-indent: 45px;
+    font-family: Quicksand;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 45px;
 }
 
 div.content span.emphasized {
-	color: #fff;
-	font-weight: bold;
+    color: #fff;
+    font-weight: bold;
 }
 div.content .details {
-	font-family: Quicksand;
-	width: 80%;
-	margin: 0;
-	padding: 10px;
-	list-style: none;
-	text-align: left;
+    font-family: Quicksand;
+    width: 80%;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    text-align: left;
 }
 div.content .details dt {
-	color: #fff;
-	font-weight: bold;
-	font-size: 17px;
-	margin: 10px 0px 0px 0px;
-	padding: 3px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 10px 0px 0px 0px;
+    padding: 3px;
 }
 div.content .details dd {
-	font-size: 14px;
+    font-size: 14px;
 }
 /*spacing for side-by-side divs*/
 div.section-double .clear {
-	clear: both;
+    clear: both;
 }
 
 #picture {
-	border-radius: 50px;
-	margin-bottom: 10px;
-	opacity: 0.8;
-	transition: all ease 0.5s;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    transition: all ease 0.5s;
 }
 #picture:hover {
-	opacity:1;
+    opacity: 1;
 }
 /*end of section elements*/
-
 
 /*data tables*/
 table thead tr:first-child td:first-child {
@@ -153,7 +151,7 @@ table tbody tr:last-child td:first-child {
 }
 
 table.graph {
-	border-spacing: 0;
+    border-spacing: 0;
     width: 85%;
     margin: 0 auto;
     padding: 0;
@@ -161,19 +159,19 @@ table.graph {
 }
 
 table.graph tr {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 table.graph td {
-	font-family: Quicksand;
+    font-family: Quicksand;
     width: 16.67%;
     height: 25px;
     border-bottom: 2px solid #fff;
     padding: 0;
 }
 table.graph td span.rating {
-	font-size: 10px;
+    font-size: 10px;
 }
 table tr td.light {
     text-align: center;
@@ -183,157 +181,165 @@ table tr td.light {
     font-size: 12px;
 }
 
-table tr td.bar { background: #01abaa;}
-table tr td.blank { background: #fff;}
+table tr td.bar {
+    background: #01abaa;
+}
+table tr td.blank {
+    background: #fff;
+}
 table tr td.data {
     background: #01abaa;
     font-family: Quicksand;
     color: #fff;
-    text-align: left;
+    text-align: center;
     padding: 5px;
     width: 70%;
 }
 table tr td.heading {
-	background: #111;
-	font-size: 15px;
-	font-weight: bold;
-	text-align: center;
-	text-transform: uppercase;
-	border-color: #fff;
-	color: #fff;
+    background: #111;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border-color: #fff;
+    color: #fff;
 }
 
 table.graph tr.labels td.bar {
-	background: #b4dbc0;
-	border-right: 1px solid #fff;
-	height: 100px;
-	width: 60px !important;
+    background: #b4dbc0;
+    border-right: 1px solid #fff;
+    height: 100px;
+    width: 60px !important;
 }
 table.graph tr.labels td.bar span {
-	font-weight: bold;
-	font-size: 10px;
-	transform: rotate(90deg);
-	display: block;
-	/* height: 25px; */
-	height: 16.67%;
+    font-weight: bold;
+    font-size: 10px;
+    transform: rotate(90deg);
+    display: block;
+    /* height: 25px; */
+    height: 16.67%;
 }
 
 table.data-table {
-	margin: 25px auto;
-	width: 80%;
+    margin: 25px auto;
+    width: 80%;
 }
 table.data-table thead td {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 table.data-table span {
-	font-weight: bold;
-	font-size: 11px;
+    font-weight: bold;
+    font-size: 11px;
 }
 
-table.job-table td.light{
-	width: 35%;
+table.job-table td.light {
+    width: 35%;
 }
 
-table.job-table td.data{
-	width: 65%;
+table.job-table td.data {
+    width: 65%;
 }
 
-table.job-table span{
-	display: block;
-	text-align: center;
+table.job-table span {
+    display: block;
+    text-align: center;
 }
 
 table.job-table span.job-title {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 table.job-table span.job-detail {
-	padding: 2px;
-	font-weight: normal;
-	font-size: 15px;
+    padding: 2px;
+    font-weight: normal;
+    font-size: 15px;
 }
 
 table.job-table span.work-location {
-	font-size: 15px;
+    font-size: 15px;
 }
 
 table.job-table span.work-duration {
-	font-weight: normal;
-	font-size: 12px;
+    font-weight: normal;
+    font-size: 12px;
 }
 
 /*end of data tables*/
 
-
 /*footer and its elements*/
 footer {
-	background: #b4dbc0;;
-	color: #000;
-	font-size: 23px;
-	height: 200px;
-	text-align: center;
-	padding-top: 100px;
-	width: 100%;
+    background: #b4dbc0;
+    color: #000;
+    font-size: 23px;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    width: 100%;
 }
 footer div.wrap {
-	font-family: Quicksand;
+    font-family: Quicksand;
     text-align: center;
     width: 70%;
     margin: 0 auto;
 }
 footer span {
-	font-family: Artifika;
+    font-family: Artifika;
 }
 footer span.oneliner {
-	clear:both;
-	display: block;
-	padding: 5px;
+    clear: both;
+    display: block;
+    padding: 5px;
 }
 footer span.oneliner.author {
-	display: block;
-	font-size: 15px;
-	margin-top: 10px;
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
 }
 footer span.oneliner.subtitle {
-	font-size: 14px;
+    font-size: 14px;
 }
 footer span.oneliner.small {
-	font-size: 12px;
+    font-size: 12px;
 }
 footer div.columns.contact {
-	width: 100%;
-	text-align: center;
-	margin: 0 auto;
-
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
 }
 footer div.columns div.column {
-	float: left;
-	width: 33%;
-	text-align: center;
+    float: left;
+    width: 33%;
+    text-align: center;
 }
 footer div.columns div.column {
-	width: 25%;
+    width: 25%;
 }
 
 footer div.columns div.clear {
-	clear: both;
+    clear: both;
 }
 footer div.columns img {
-	transition: all ease 1s;
-	width: 90px;
-	height: 90px;
+    transition: all ease 1s;
+    width: 90px;
+    height: 90px;
 }
 /*end of footer*/
 
 /* animation(s) */
 img.pulse:hover {
-	animation: pulse 1s infinite;
-	animation-timing-function: linear;
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes pulse {
-	0% { transform: scale(1); }
-	50% { transform: scale(1.1);}
-	100% { transform: scale(1); }
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
